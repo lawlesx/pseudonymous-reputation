@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Button from '../components/Button'
-import {useRef} from 'react'
-import {motion, useScroll} from 'framer-motion'
+import { motion } from 'framer-motion'
+import About from '../components/About'
 
 const backgroundVariants = {
   visible: {
@@ -51,14 +51,15 @@ export default function Home() {
         <h1 className='text-cotton-candy text-4xl font-dosis font-bold'>Pseudo <span className='font-rubik text-dogwood-rose '>Rep</span></h1>
         <Button onClick={() => console.log('LOL')}>Connect Wallet</Button>
       </div>
-      <div className='flex flex-col items-center justify-center w-full gap-4'>
-        <h1 className='text-6xl font-bold text-eggshell tracking-widest mt-40'>Know your ReputeX</h1>
+      <div className='flex flex-col items-center justify-center w-full gap-4 py-40'>
+        <h1 className='text-6xl font-bold text-eggshell tracking-widest'>Know your ReputeX</h1>
         <p className='text-lg font-medium text-cotton-candy tracking-wider'>Unlock a new dimension with your Web3 credit score</p>
         <div className='w-[30rem] rounded-full bg-eggshell mt-12 flex items-center justify-between p-2'>
           <input className='w-2/3 h-10 bg-transparent rounded-full p-2 placeholder:text-blue-violet placeholder:text-opacity-50 text-blue-violet outline-none' placeholder='0xDAF....8Bc5 or ENS or UD'/>
           <Button>{`Let's go`}</Button>
         </div>
       </div>
+      <About />
     </div>
   )
 }
