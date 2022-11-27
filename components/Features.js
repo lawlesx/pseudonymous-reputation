@@ -8,8 +8,7 @@ const featuresContents = [
   {
     title: 'Plug and Play Integration',
     description: 'Make your Dapp attractive for DeFi users with our programmable and customizable ReputeX score. Are you ready to use our DeFi Credit/Reputation Score to build next-gen Dapp?',
-  }
-  ,
+  },
   {
     title: 'Real-time On-chain Score',
     description: 'ReputeX score is calculated and updated in real-time. You can access on-chain ReputeX score in real time to consume it within any Dapp.',
