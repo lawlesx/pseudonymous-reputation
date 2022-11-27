@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Button from '../components/Button'
-import { motion } from 'framer-motion'
 import About from '../components/About'
 import Features from '../components/Features'
+import { motion } from 'framer-motion'
 
 const backgroundVariants = {
   visible: {
@@ -48,10 +48,6 @@ export default function Home() {
       <motion.div className="absolute w-20 h-20 rounded-3xl right-10 top-40" variants={backgroundVariants} animate="visible"></motion.div>
       <motion.div className="absolute w-40 h-40 rounded-tr-3xl rounded-bl-3xl right-14 top-80" variants={backgroundVariants2} animate="visible"></motion.div>
       <motion.div className="absolute w-40 h-40 rounded-tr-3xl rounded-bl-3xl left-14 top-40" variants={backgroundVariants2} animate="visible"></motion.div>
-      <div className='flex items-center justify-between p-10'>
-        <h1 className='text-cotton-candy text-4xl font-dosis font-bold'>Pseudo <span className='font-rubik text-dogwood-rose '>Rep</span></h1>
-        <Button onClick={() => console.log('LOL')}>Connect Wallet</Button>
-      </div>
       <div className='flex flex-col items-center justify-center w-full gap-4 py-40'>
         <h1 className='text-6xl font-bold text-eggshell tracking-widest'>Know your ReputeX</h1>
         <p className='text-lg font-medium text-cotton-candy tracking-wider'>Unlock a new dimension with your Web3 credit score</p>
