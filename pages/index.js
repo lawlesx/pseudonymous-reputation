@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Button from '../components/Button'
 import { motion } from 'framer-motion'
 import About from '../components/About'
+import Features from '../components/Features'
 
 const backgroundVariants = {
   visible: {
@@ -60,6 +61,7 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <Features />
     </div>
   )
 }
