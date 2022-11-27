@@ -3,6 +3,7 @@ import Button from '../components/Button'
 import About from '../components/About'
 import Features from '../components/Features'
 import { motion } from 'framer-motion'
+import { useRouter } from 'next/router'
 
 const backgroundVariants = {
   visible: {
@@ -37,6 +38,7 @@ const backgroundVariants2 = {
 
 
 export default function Home() {
+  const router = useRouter()
   return (
     <div className='w-full min-h-screen bg-space-cadet'>
       <Head>
@@ -53,7 +55,7 @@ export default function Home() {
         <p className='text-lg font-medium text-cotton-candy tracking-wider'>Unlock a new dimension with your Web3 credit score</p>
         <div className='w-[30rem] rounded-full bg-eggshell mt-12 flex items-center justify-between p-2'>
           <input className='w-2/3 h-10 bg-transparent rounded-full p-2 placeholder:text-blue-violet placeholder:text-opacity-50 text-blue-violet outline-none' placeholder='0xDAF....8Bc5 or ENS or UD'/>
-          <Button>{`Let's go`}</Button>
+          <Button onClick={() => router.push('/chainbreakdown')}>{`Let's go`}</Button>
         </div>
       </div>
       <About />
