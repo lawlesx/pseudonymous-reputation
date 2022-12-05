@@ -3,27 +3,27 @@ import React from 'react'
 const featuresContents = [
   {
     title: 'Multi-Vector Grading',
-    description: 'ReputeX Score is a dependable numeric derived from a thorough research of various applications, usage history, and insights gained from chain analysis, including your ENS domains and NFTs.'
+    description: 'Score is a dependable numeric derived from a thorough research of various applications, usage history, and insights gained from chain analysis, including your ENS domains and NFTs.'
   },
   {
     title: 'Plug and Play Integration',
-    description: 'Make your Dapp attractive for DeFi users with our programmable and customizable ReputeX score. Are you ready to use our DeFi Credit/Reputation Score to build next-gen Dapp?',
+    description: 'Make your Dapp attractive for DeFi users with our programmable and customizable Score. Are you ready to use our DeFi Credit/Reputation Score to build next-gen Dapp?',
   },
   {
     title: 'Real-time On-chain Score',
-    description: 'ReputeX score is calculated and updated in real-time. You can access on-chain ReputeX score in real time to consume it within any Dapp.',
+    description: 'Score is calculated and updated in real-time. You can access on-chain score in real time to consume it within any Dapp.',
   },
   {
     title: 'Multichain Analysis',
-    description: 'ReputeX score is chain-agnostic and computed across Ethereum, Polygon, BSC, Avalanche. More blockchain analysis coming soon.',
+    description: 'Score is chain-agnostic and computed across Ethereum, Polygon, BSC, Avalanche. More blockchain analysis coming soon.',
   },
   {
     title: 'One Identity, Multiple Use case',
-    description: 'Manage your various wallets and multichain activities under a single Decentralized Identity and represent it through ReputeX Score.',
+    description: 'Manage your various wallets and multichain activities under a single Decentralized Identity and represent it through Score.',
   },
   {
     title: 'Social Connect',
-    description: 'Connect your Social Media profiles & Boost your ReputeX score with Gamified User Experience.',
+    description: 'Connect your Social Media profiles & Boost your score with Gamified User Experience.',
   }
 ]
 

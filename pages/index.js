@@ -51,7 +51,7 @@ export default function Home() {
       <motion.div className="absolute w-40 h-40 rounded-tr-3xl rounded-bl-3xl right-14 top-80" variants={backgroundVariants2} animate="visible"></motion.div>
       <motion.div className="absolute w-40 h-40 rounded-tr-3xl rounded-bl-3xl left-14 top-40" variants={backgroundVariants2} animate="visible"></motion.div>
       <div className='flex flex-col items-center justify-center w-full gap-4 py-40'>
-        <h1 className='text-6xl font-bold text-eggshell tracking-widest'>Know your ReputeX</h1>
+        <h1 className='text-6xl font-bold text-eggshell tracking-widest'>Know your Score</h1>
         <p className='text-lg font-medium text-cotton-candy tracking-wider'>Unlock a new dimension with your Web3 credit score</p>
         <div className='w-[30rem] rounded-full bg-eggshell mt-12 flex items-center justify-between p-2'>
           <input className='w-2/3 h-10 bg-transparent rounded-full p-2 placeholder:text-blue-violet placeholder:text-opacity-50 text-blue-violet outline-none' placeholder='0xDAF....8Bc5 or ENS or UD'/>
