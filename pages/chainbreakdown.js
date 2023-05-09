@@ -20,28 +20,28 @@ const Chainbreakdown = () => {
           <h1 className='text-[7rem] h-full w-full flex items-center justify-center -rotate-45 font-semibold font-rubik text-space-cadet'>{score}</h1>
         </div>
         <div className='grid grid-cols-2 gap-4'>
-          <div className='h-full w-[20rem] bg-eggshell rounded-3xl flex items-center justify-between'>
+          <div className='h-full w-[20rem] bg-eggshell p-4 rounded-3xl flex items-center justify-between'>
             <div className='flex flex-col gap-2 p-4'>
               <h1 className='text-2xl font-bold text-dogwood-rose'>Ethereum</h1>
               <p className='text-lg font-medium text-blue-violet w-max px-8 rounded-full bg-cotton-candy'>89</p>
             </div>
-            <div className='relative w-40 h-40'><Image src="/images/ethHands.svg" fill alt="Eth hands" style={{ objectFit: 'contain'}}/></div>
+            <div className='relative w-20 h-20'><Image src="/images/Ethereum.png" fill alt="Eth hands" style={{ objectFit: 'contain'}}/></div>
           </div>
-          <div className='h-full w-[20rem] bg-eggshell rounded-3xl flex items-center justify-between'>
+          <div className='h-full w-[20rem] bg-eggshell p-4 rounded-3xl flex items-center justify-between'>
             <div className='flex flex-col gap-2 p-4'>
               <h1 className='text-2xl font-bold text-dogwood-rose'>BSC</h1>
               <p className='text-lg font-medium text-blue-violet w-max px-8 rounded-full bg-cotton-candy'>0</p>
             </div>
             <div className='relative w-20 h-20'><Image src="/images/Binance.png" fill alt="Binance" style={{ objectFit: 'contain'}}/></div>
           </div>
-          <div className='h-full w-[20rem] bg-eggshell rounded-3xl flex items-center justify-between'>
+          <div className='h-full w-[20rem] bg-eggshell p-4 rounded-3xl flex items-center justify-between'>
             <div className='flex flex-col gap-2 p-4'>
               <h1 className='text-2xl font-bold text-dogwood-rose'>Avalanche</h1>
               <p className='text-lg font-medium text-blue-violet w-max px-8 rounded-full bg-cotton-candy'>72</p>
             </div>
             <div className='relative w-20 h-20'><Image src="/images/Avalanche.png" fill alt="Avalanche" style={{ objectFit: 'contain'}}/></div>
           </div>
-          <div className='h-full w-[20rem] bg-eggshell rounded-3xl flex items-center justify-between'>
+          <div className='h-full w-[20rem] bg-eggshell p-4 rounded-3xl flex items-center justify-between'>
             <div className='flex flex-col gap-2 p-4'>
               <h1 className='text-2xl font-bold text-dogwood-rose'>Polygon</h1>
               <p className='text-lg font-medium text-blue-violet w-max px-8 rounded-full bg-cotton-candy'>11</p>
